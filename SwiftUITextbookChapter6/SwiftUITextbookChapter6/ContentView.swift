@@ -14,7 +14,9 @@ struct ContentView: View {
     var body: some View {
         Button(action: { self.isError = true }) {
             Text("Alertテスト")
-        }
+        }.alert(isPresented: $isError, content: {
+            Alert(title: Text("タイトル"), message: Text("メッセージ文"), dismissButton: .default(Text("OK"), action: {}))
+        })
     }
 }
 
