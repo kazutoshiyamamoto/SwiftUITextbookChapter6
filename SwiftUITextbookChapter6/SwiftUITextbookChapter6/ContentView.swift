@@ -15,16 +15,10 @@ struct ContentView: View {
         Button(action: { self.isError = true }) {
             Text("Alertテスト")
         }.alert(isPresented: $isError, content: {
-            Alert(title: Text("タイトル"), message: Text("メッセージ文"), primaryButton: .default(Text("OK"), action: {
-                okAction()
-            }),
+            Alert(title: Text("タイトル"), message: Text("メッセージ文"), primaryButton: .destructive(Text("削除する"), action: {}),
                   secondaryButton: .cancel(Text("キャンセル"), action: {}))
         })
     }
-}
-
-func okAction() {
-    print("OKボタンが選ばれた")
 }
 
 struct ContentView_Previews: PreviewProvider {
