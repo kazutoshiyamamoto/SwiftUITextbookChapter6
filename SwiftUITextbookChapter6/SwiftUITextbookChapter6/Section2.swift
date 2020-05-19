@@ -16,6 +16,15 @@ struct Section2: View {
             self.isSheet = true
         }) {
             Text("Action Sheet テスト")
+        }.actionSheet(isPresented: $isSheet) {
+            ActionSheet(title: Text("タイトル"),
+                        message: Text("メッセージ文"),
+                        buttons: [
+                            .default(Text("ボタン1"), action: {}),
+                            .default(Text("ボタン2"), action: {}),
+                            .destructive(Text("削除"), action: {}),
+                            .cancel(Text("キャンセル"), action: {})
+            ])
         }
     }
 }
