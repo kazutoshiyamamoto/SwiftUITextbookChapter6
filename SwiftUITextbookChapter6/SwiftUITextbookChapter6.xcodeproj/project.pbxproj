@@ -13,6 +13,7 @@
 		FDA764C924720D9800A3F53E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA764C824720D9800A3F53E /* Assets.xcassets */; };
 		FDA764CC24720D9800A3F53E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA764CB24720D9800A3F53E /* Preview Assets.xcassets */; };
 		FDA764CF24720D9800A3F53E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA764CD24720D9800A3F53E /* LaunchScreen.storyboard */; };
+		FDA764D7247372A500A3F53E /* Section2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA764D6247372A500A3F53E /* Section2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FDA764CB24720D9800A3F53E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FDA764CE24720D9800A3F53E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDA764D024720D9800A3F53E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA764D6247372A500A3F53E /* Section2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				FDA764C224720D9000A3F53E /* AppDelegate.swift */,
 				FDA764C424720D9000A3F53E /* SceneDelegate.swift */,
 				FDA764C624720D9000A3F53E /* ContentView.swift */,
+				FDA764D6247372A500A3F53E /* Section2.swift */,
 				FDA764C824720D9800A3F53E /* Assets.xcassets */,
 				FDA764CD24720D9800A3F53E /* LaunchScreen.storyboard */,
 				FDA764D024720D9800A3F53E /* Info.plist */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDA764D7247372A500A3F53E /* Section2.swift in Sources */,
 				FDA764C324720D9000A3F53E /* AppDelegate.swift in Sources */,
 				FDA764C524720D9000A3F53E /* SceneDelegate.swift in Sources */,
 				FDA764C724720D9000A3F53E /* ContentView.swift in Sources */,
