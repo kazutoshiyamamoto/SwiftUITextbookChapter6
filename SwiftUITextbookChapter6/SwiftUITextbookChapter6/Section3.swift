@@ -28,3 +28,13 @@ struct Section3_Previews: PreviewProvider {
         Section3()
     }
 }
+
+struct SomeView: View {
+    var body: some View {
+        VStack {
+            Text("プレゼンテーション")
+            Image(systemName: "gift")
+                .imageScale(.large).padding()
+        }
+    }
+}
