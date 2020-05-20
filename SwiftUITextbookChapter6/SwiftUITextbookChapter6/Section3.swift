@@ -17,6 +17,9 @@ struct Section3: View {
         }) {
             Text("Sheet テスト")
         }
+        .sheet(isPresented: $isModal) {
+            SomeView()
+        }
     }
 }
 
