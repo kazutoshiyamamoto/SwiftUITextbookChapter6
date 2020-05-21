@@ -10,14 +10,20 @@ import SwiftUI
 
 struct Section4: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView {
+            VStack {
+                ForEach(photoArray) { photoData in
+                    PhotoView(photo: photoData)
+                }
+            }
+        }
     }
 }
 
 struct Section4_Previews: PreviewProvider {
     static var previews: some View {
-//        Section4()
-        PhotoView(photo: photoArray[0])
+        Section4()
+//        PhotoView(photo: photoArray[0])
     }
 }
 
