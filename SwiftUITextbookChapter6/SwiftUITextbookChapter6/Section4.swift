@@ -10,8 +10,8 @@ import SwiftUI
 
 struct Section4: View {
     var body: some View {
-        ScrollView {
-            VStack {
+        ScrollView(.horizontal) {
+            HStack {
                 ForEach(photoArray) { photoData in
                     PhotoView(photo: photoData)
                 }
