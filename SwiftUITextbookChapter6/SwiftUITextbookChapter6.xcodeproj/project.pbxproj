@@ -17,6 +17,7 @@
 		FDA764D92474D0FE00A3F53E /* Section3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA764D82474D0FE00A3F53E /* Section3.swift */; };
 		FDA764DB2476115300A3F53E /* Section4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA764DA2476115300A3F53E /* Section4.swift */; };
 		FDA764DD247612E800A3F53E /* PhotoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA764DC247612E800A3F53E /* PhotoData.swift */; };
+		FDA764E12481599800A3F53E /* Section5.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA764E02481599800A3F53E /* Section5.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		FDA764D82474D0FE00A3F53E /* Section3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section3.swift; sourceTree = "<group>"; };
 		FDA764DA2476115300A3F53E /* Section4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section4.swift; sourceTree = "<group>"; };
 		FDA764DC247612E800A3F53E /* PhotoData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoData.swift; sourceTree = "<group>"; };
+		FDA764E02481599800A3F53E /* Section5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section5.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				FDA764D82474D0FE00A3F53E /* Section3.swift */,
 				FDA764DA2476115300A3F53E /* Section4.swift */,
 				FDA764DC247612E800A3F53E /* PhotoData.swift */,
+				FDA764E02481599800A3F53E /* Section5.swift */,
 				FDA764C824720D9800A3F53E /* Assets.xcassets */,
 				FDA764CD24720D9800A3F53E /* LaunchScreen.storyboard */,
 				FDA764D024720D9800A3F53E /* Info.plist */,
@@ -161,6 +164,7 @@
 				FDA764D92474D0FE00A3F53E /* Section3.swift in Sources */,
 				FDA764D7247372A500A3F53E /* Section2.swift in Sources */,
 				FDA764C324720D9000A3F53E /* AppDelegate.swift in Sources */,
+				FDA764E12481599800A3F53E /* Section5.swift in Sources */,
 				FDA764DD247612E800A3F53E /* PhotoData.swift in Sources */,
 				FDA764C524720D9000A3F53E /* SceneDelegate.swift in Sources */,
 				FDA764DB2476115300A3F53E /* Section4.swift in Sources */,
