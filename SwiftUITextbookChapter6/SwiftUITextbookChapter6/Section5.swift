@@ -32,6 +32,16 @@ struct Section5: View {
                     }
             }
             .tag(1)
+            
+            Text("Third View")
+                .font(.title)
+                .tabItem {
+                    VStack {
+                        Image("third")
+                        Text("Third")
+                    }
+            }
+            .tag(2)
         }
     }
 }
